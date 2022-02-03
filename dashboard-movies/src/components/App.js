@@ -5,8 +5,10 @@ import ContentRowTop from './ContentRowTop';
 function App() {
   return (
     <div id="wrapper">
-      <TopBar />
-      <ContentRowTop />
+      <div id="content">
+        <TopBar />
+        <ContentRowTop />
+      </div>
     </div>
   );
 }
